@@ -204,17 +204,6 @@ Lunes Host Auto Keep Alive
 - 验证 Secrets 中 `TG_BOT_TOKEN` 和 `TG_CHAT_ID`  
 - 查看 Actions 日志中的 `Telegram 通知` 错误提示
 
-### 4. 代理连接失败
-
-**原因**：  
-- `HY2_URL` 格式错误  
-- 代理服务器不可用  
-
-**解决**：  
-- 确保格式为 `hysteria2://password@server:port?sni=example.com`  
-- 测试代理连通性  
-- 留空 `HY2_URL` 使用直连模式
-
 ---
 
 ## 🔒 安全建议
